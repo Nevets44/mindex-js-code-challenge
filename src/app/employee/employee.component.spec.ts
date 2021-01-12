@@ -46,7 +46,9 @@ describe('EmployeeComponent', () => {
       id: 1,
       firstName: 'first',
       lastName: 'last',
-      position: 'jobTitle'
+      position: 'jobTitle',
+	  compensation: 'compensation',
+	  directReports: 'directReports'
     };
 
     expect(comp).toBeTruthy();
